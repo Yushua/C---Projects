@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Page 2</h1>
+<p>Ok, this is a little much to do by hand...</p>
+<a href="/">Go back</a>
+<a href="form/hello_world.py">Run script!</a>
+
+<FORM METHOD=GET
+	ACTION="form/hello_world.py">
+
+<P>Name <INPUT NAME="name" TYPE=text SIZE="48">
+<P>Message <INPUT NAME="msg" TYPE=text SIZE="48">
+<P><INPUT TYPE=submit> <INPUT TYPE=reset>
+
+</FORM>
+
+<img src="pictures/puppy.jpg" alt="puppy" height="300px" width="500px" />
+<a href="pictures/puppy.jpg" download>Download this Picture!</a>
+
+<form action="form/upload.exec" method="post" enctype="multipart/form-data">
+	<p>Upload 1 file:</p>
+	<input type="file" name="fileToUpload" id="fileToUpload">
+	<input type="submit">
+</form>
+
+<form action="form/upload.exec" method="post" enctype="multipart/form-data">
+	<p>Upload 2 files:</p>
+	<input type="file" name="fileToUpload" id="fileToUpload">
+	<input type="file" name="fileToUpload" id="fileToUpload">
+	<input type="submit">
+</form>
+
+<form action="form/upload.exec" method="post" enctype="multipart/form-data">
+	<p>Upload 7 files:</p>
+	<input type="file" name="fileToUpload" id="fileToUpload">
+	<input type="file" name="fileToUpload" id="fileToUpload">
+	<input type="file" name="fileToUpload" id="fileToUpload">
+	<input type="file" name="fileToUpload" id="fileToUpload">
+	<input type="file" name="fileToUpload" id="fileToUpload">
+	<input type="file" name="fileToUpload" id="fileToUpload">
+	<input type="file" name="fileToUpload" id="fileToUpload">
+	<input type="submit">
+</form>
+
+</body>
+</html>
